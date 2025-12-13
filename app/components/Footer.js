@@ -8,19 +8,17 @@ export default function Footer() {
         <div>
           <h4>Privacy Policy</h4>
           <ul>
-            <li><Link href="#">Returns & Exchanges</Link></li>
-            <li><Link href="#">Payment Terms</Link></li>
-            <li><Link href="#">Delivery Terms</Link></li>
-            <li><Link href="#">Payment & Pricing</Link></li>
-            <li><Link href="#">Terms Of Use</Link></li>
-            <li><Link href="#">Privacy Policy</Link></li>
+            <li><Link href="/returns-exchanges">Returns & Exchanges</Link></li>
+            <li><Link href="/payment-terms">Payment & Pricing</Link></li>
+            <li><Link href="/terms-of-use">Terms Of Use</Link></li>
+            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
           </ul>
         </div>
 
         <div>
           <h4>Get Involved</h4>
           <ul>
-            <li><Link href="#">About Us</Link></li>
+            <li><Link href="/about">About Us</Link></li>
             <li><Link href="#">Our Vision</Link></li>
             <li><Link href="#">Orders & Shipping</Link></li>
             <li><Link href="#">Office Supplies</Link></li>
