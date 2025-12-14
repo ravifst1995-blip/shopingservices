@@ -1,7 +1,7 @@
 // app/about/page.js
 export default function PrivacyPolicy() {
   return (
-    <div className="container">
+    <div className="container aboutContent">
        <h3 className="style-section-title container">Privacy Policy</h3>
       <div className="hero">
         
