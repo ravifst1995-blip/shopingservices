@@ -1,8 +1,8 @@
 // app/about/page.js
 export default function ReturnsExchanges() {
   return (
-    <div className="container">
-      <h2 className="section-title">Secure Payments Policy</h2>
+    <div className="container aboutContent">
+        <h3 className="style-section-title container">Secure Payments Policy</h3>
       <div className="hero">
      <p>
           First Source Tech offers secure and flexible payment options for all

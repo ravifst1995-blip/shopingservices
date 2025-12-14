@@ -4,9 +4,9 @@ import { Mail, Headphones, Truck, Tag } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="footer">
+      <div className="container">
       <div className="footer-links">
         <div>
-          <h4>Privacy Policy</h4>
           <ul>
             <li><Link href="/returns-exchanges">Returns & Exchanges</Link></li>
             <li><Link href="/payment-terms">Payment & Pricing</Link></li>
@@ -14,47 +14,11 @@ export default function Footer() {
             <li><Link href="/privacy-policy">Privacy Policy</Link></li>
           </ul>
         </div>
-
-        <div>
-          <h4>Get Involved</h4>
-          <ul>
-            <li><Link href="/about">About Us</Link></li>
-            <li><Link href="#">Our Vision</Link></li>
-            <li><Link href="#">Orders & Shipping</Link></li>
-            <li><Link href="#">Office Supplies</Link></li>
-            <li><Link href="#">Contact Us</Link></li>
-            <li><Link href="#">Customer Service</Link></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4>Quick Links</h4>
-          <ul>
-            <li><Link href="#">Smartphones</Link></li>
-            <li><Link href="#">Headphones</Link></li>
-            <li><Link href="#">Laptop & Tablet</Link></li>
-            <li><Link href="#">Monitors</Link></li>
-            <li><Link href="#">Printers</Link></li>
-            <li><Link href="#">Gadgets</Link></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4>Customer Care</h4>
-          <ul>
-            <li><Link href="#">My Account</Link></li>
-            <li><Link href="#">Store Locator</Link></li>
-            <li><Link href="#">Customer Service</Link></li>
-            <li><Link href="#">Returns/Exchange</Link></li>
-            <li><Link href="#">Product Support</Link></li>
-            <li><Link href="#">FAQs</Link></li>
-          </ul>
-        </div>
       </div>
 
       <hr />
       <div className="footer-bottom">
-        <div className="brand">Smart Digital Devices</div>
+        <div className="brand">Print Digital Services</div>
 
         <div className="info">
           {/* <span><Headphones size={16} /> +0080 1234 56 789</span> */}
@@ -64,7 +28,8 @@ export default function Footer() {
       </div>
 
       <div className="copyright">
-        © 2025 Smart Digital Devices. ALL RIGHTS RESERVED
+        © 2025 Print Digital Services. ALL RIGHTS RESERVED
+      </div>
       </div>
     </footer>
   );

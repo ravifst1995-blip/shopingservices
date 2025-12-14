@@ -10,7 +10,7 @@ export default function Header() {
     <header className="site-header">
       <div className="header-inner container">
         <h1 className="logo">
-          <Link href="/">Smart Digital Devices</Link>
+          <Link href="/">Print Digital Services</Link>
         </h1>
 
         {/* Desktop Nav */}

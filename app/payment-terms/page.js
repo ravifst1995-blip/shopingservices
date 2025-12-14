@@ -1,8 +1,8 @@
 // app/about/page.js
 export default function PaymentTerms() {
   return (
-    <div className="container">
-      <h2 className="section-title">Payment & Pricing Policy </h2>
+    <div className="container aboutContent">
+        <h3 className="style-section-title container">Payment & Pricing Policy </h3>
       <div className="hero">
       <h3>Product Pricing</h3>
         <ul>

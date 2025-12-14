@@ -1,8 +1,8 @@
 // app/about/page.js
 export default function TermsOfUse() {
   return (
-    <div className="container">
-      <h1 className="section-title">Terms of Use – First Source Tech</h1>
+    <div className="container aboutContent">
+         <h3 className="style-section-title container">Terms of Use – First Source Tech</h3>
     <div className="hero">
         <p>
           By accessing or using the First Source Tech website, you agree to comply
